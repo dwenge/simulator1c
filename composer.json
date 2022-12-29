@@ -1,0 +1,21 @@
+{
+    "name": "dwenge/simulator_import",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^7.5",
+        "ext-mbstring": "*",
+        "ext-zip": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SimulatorImport\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dwenge",
+            "email": "shirinkin.denis@bk.ru"
+        }
+    ]
+}

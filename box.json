@@ -1,0 +1,13 @@
+{
+  "main": "bin/main.php",
+  "output": "build/simulator1c.phar",
+
+  "directories": ["src"],
+  "finder": [
+    {
+      "name": "*.php",
+      "exclude": ["test", "tests"],
+      "in": "vendor"
+    }
+  ]
+}
